@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>All policies</name>
+    <author>Alexander Fedonin</author>
+    <version>1.0.0</version>
+    <description>A module represents Show All policies functionality for Blockchain in insurance prototype.</description>
+    <files>
+        <filename>mod_allpolicies.xml</filename>
+        <filename module="mod_allpolicies">mod_allpolicies.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>css/style.css</filename>
+        <filename>css/index.html</filename>       
+    </files>
+    <config>
+    </config>
+</extension>

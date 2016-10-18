@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Buy policy module</name>
+    <author>Alexander Fedonin</author>
+    <version>1.1.0</version>
+    <description>Buy policy module for Blockchain In Insurance Prototype</description>
+    <files>
+        <filename>mod_buypolicy.xml</filename>
+        <filename module="mod_buypolicy">mod_buypolicy.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>css/jquery-ui.css</filename>
+        <filename>css/index.html</filename>
+        <filename>js/jquery-ui.js</filename>
+        <filename>js/jquery-qrcode.js</filename>
+        <filename>js/index.html</filename>               
+    </files>
+    <config>
+    </config>
+</extension>
